@@ -16,7 +16,7 @@ dependencies = ["fractal-tasks-core==1.4.3", "scikit-image", "matplotlib", "imag
                 "jax==0.4.23", "jaxlib==0.4.23", "SimpleITK-SimpleElastix", "ome-zarr", "ashlar", "pyfeats",
                 "pydantic>=2.0,<2.8.0", "defusedxml", "seaborn", "numcodecs==0.13.1", "fractal-task-tools==0.1.0", "hyperactive==4.8.0",
 				"dask==2024.2.0", "zarr==2.17.0", "numpy<2", "ml-dtypes==0.5.1", "h5py==3.14.0", "PyWavelets<=1.5.0", "pandas<2.0.0",
-                "contourpy<=1.2.0", "leidenalg==0.10.2"]
+                "contourpy<=1.2.0", "leidenalg==0.10.2", "gradient_free_optimizers<1.9.0"]
 
 # Optional dependencies (e.g. for `pip install -e ".[dev]"`, see
 # https://peps.python.org/pep-0621/#dependencies-optional-dependencies)
