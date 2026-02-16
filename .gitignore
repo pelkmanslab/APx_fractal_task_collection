@@ -170,6 +170,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+*.nii
 
 # Translations
 *.mo
