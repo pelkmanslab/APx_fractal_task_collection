@@ -68,8 +68,8 @@ def init_calculate_basicpy_illumination_models(
             parallelization list.
     """
     logger.info(
-        f"Running `init_calculate_basicpy_illumination_models` "
-        f"for {zarr_urls=}"
+        "Running `init_calculate_basicpy_illumination_models` "
+        f"for {len(zarr_urls)} zarr_urls, starting with {zarr_urls[:10]}"
     )
 
     logger.info(
